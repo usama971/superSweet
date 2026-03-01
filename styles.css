@@ -282,3 +282,11 @@ h1 {
     padding: 0.5rem 0.2rem;
   }
 }
+
+/* Prevent overflow on long URLs */
+.info a {
+  color: var(--accent-2);
+  text-decoration: underline;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
